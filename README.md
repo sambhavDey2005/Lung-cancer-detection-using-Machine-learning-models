@@ -28,3 +28,27 @@ The models are trained and evaluated on annotated medical image datasets, with a
 
 Clone the repository and install the required dependencies:
 
+
+## Usage
+
+1. Prepare the image dataset and place it in the `data/` directory.
+2. Run the preprocessing and feature extraction scripts.
+3. Train the model using the provided notebook or scripts.
+4. Evaluate the model performance on test data.
+5. Use the trained model for inference on new patient images.
+
+## Results
+
+The project demonstrates highly accurate predictions in lung cancer detection, with some methods achieving greater than 99% classification accuracy on benchmark datasets. Performance is reported in terms of accuracy, precision, recall, and F1-score where applicable.
+
+## Contributing
+
+Contributions are welcome. Please fork the repository, create a pull request, and ensure code follows the existing style and documentation standards.
+
+## License
+
+This project is open source and available under the MIT License. Please see the LICENSE file for details.
+
+## Contact
+
+For questions regarding the repository or collaboration inquiries, please open an issue in the repository or reach out to the project maintainers.
